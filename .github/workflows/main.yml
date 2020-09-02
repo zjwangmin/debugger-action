@@ -1,8 +1,8 @@
-name: macOS
+name: MacOS
 on: push
 jobs:
-  Ubuntu:
-    runs-on: macOS-latest
+  MacOS:
+    runs-on: macos-latest
     steps:
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
